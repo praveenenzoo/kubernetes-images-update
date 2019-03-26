@@ -1,0 +1,3 @@
+FROM nginx
+COPY web2 /usr/share/nginx/html/
+EXPOSE 80
